@@ -4,7 +4,7 @@
 #include <iomanip>
 #include "../include/rnnwavefunction.cuh"
 #include "../include/hamiltonians.cuh"
-#include "../cpu/include/argparse.hpp"
+#include "../../cpu/include/argparse.hpp"
 
 template <typename FloatType>
 std::string remove_zeros_in_str(const FloatType val);
